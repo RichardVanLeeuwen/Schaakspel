@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    justify-content: start;
+}
+
+.vak {
+    width: 11vw;
+    height: 11vw;
+}

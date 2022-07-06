@@ -1,1 +1,6 @@
-<h3>Hier komt het schaakbord</h3>
+<div class="container">
+  <ng-container *ngFor="let kolom of kolommen; let kolomIndex;">
+    <app-vak class="vak" *ngFor="let vakje of vakken; let rijIndex" [xLoc]="vakje" [yLoc]="kolom">
+    </app-vak>
+  </ng-container>
+</div>
